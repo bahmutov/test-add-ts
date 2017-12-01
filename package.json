@@ -1,7 +1,7 @@
 {
   "name": "test-add-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "A test project for https://github.com/bahmutov/add-typescript-to-cypress",
   "main": "index.js",
   "scripts": {
     "test": "cypress open"

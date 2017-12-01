@@ -4,13 +4,15 @@
   "description": "A test project for https://github.com/bahmutov/add-typescript-to-cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "lint": "tsc --pretty --noEmit cypress/**/*.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@bahmutov/add-typescript-to-cypress": "^1.0.2",
+    "@types/mocha": "^2.2.44",
     "cypress": "^1.1.2",
     "typescript": "^2.6.2"
   }
